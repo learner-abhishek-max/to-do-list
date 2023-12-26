@@ -1,11 +1,12 @@
+import React from "react";
 import "./App.css";
-import TicTacToe from "./components/TicTacToe/TicTacToe";
-function App() {
+import Todo from "./components/todo";
+const App = () => {
   return (
     <div>
-      <TicTacToe />
+      <Todo />
     </div>
   );
-}
+};
 
 export default App;
